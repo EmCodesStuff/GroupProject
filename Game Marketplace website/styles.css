@@ -31,11 +31,11 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #555;
+    color: #222;
 }
 
 p {
-    color: #555;
+    color: #222;
 }
 
 .container {
@@ -83,7 +83,7 @@ p {
 }
 
 .header {
-    background: radial-gradient(#fff, #ffd6d6);
+    background: radial-gradient(#222, #999);
 }
 
 .header.row {
@@ -123,6 +123,9 @@ p {
     width: 100%;
 }
 
+
+/* Small titles for subcategories */
+
 .title {
     text-align: center;
     margin: 0 auto 80px;
@@ -160,7 +163,7 @@ h4 {
 /*-------SALE-------*/
 
 .sale {
-    background: radial-gradient(#fff, #ffd6d6);
+    background: radial-gradient(#222, #999);
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -261,30 +264,3 @@ ul {
     margin-left: 20px;
     display: none;
 }
-
-
-/*-------media query for menu-------*/
-
-
-/*@media only screen and (max-width: 800px) {
-    nav ul {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width: 100px;
-    }
-    nav ul li {
-        display: block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    nav ul li a {
-        color: #fff;
-    }
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-}*/
